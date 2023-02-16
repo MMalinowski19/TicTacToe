@@ -150,8 +150,8 @@ public class Game {
      */
     public String checkGameWinner(char [][]grid) {
         String result = "None";
-        String resultXwin = "X is winner";
-        String resultOwin = "O is winner";
+        String resultXwin = "X wins";
+        String resultOwin = "O wins";
         String resultTie = "Tie";
         int moves = 0;
 
